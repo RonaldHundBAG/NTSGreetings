@@ -14,7 +14,7 @@ public class Greeting {
 
     private String satz;
 
-
+    private String role;
 
     public Long getId() {
         return id;
@@ -30,5 +30,13 @@ public class Greeting {
 
     public void setSatz(String satz) {
         this.satz = satz;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
     }
 }
